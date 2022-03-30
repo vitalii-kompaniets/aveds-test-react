@@ -1,0 +1,45 @@
+.button {
+  padding: 15px 38px;
+  margin-right: 10px;
+  border: 1px solid #ff685b;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #ff685b;
+  background-color: #fff;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: #ff685b;
+  }
+
+  &:active {
+    border-color: #f8958c;
+    background-color: #f8958c;
+  }
+}
+
+.profile-btn {
+  margin-right: 0;
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 768px) {
+    margin-right: 10px;
+    margin-bottom: 0;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
